@@ -1,0 +1,4 @@
+{
+  "project.name" : "test-phabricator",
+  "phabricator.uri" : "http://phabricator.elastichosts.com/"
+}
