@@ -2,7 +2,7 @@
 
  css = Bundle('less/styles.less', filters='less,cssimgcb,yui_css', output='styles.css', debug=False)
 
- register('css_all', css)
+ register('css_all', css.cc)
 
 
 calculator_css = Bundle('less/calculator.less', filters='less,cssimgcb,ui_css', output='calculator.css', debug=False)
